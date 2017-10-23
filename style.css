@@ -16,7 +16,7 @@ body{
    list-style: none;
    padding: 0;
    margin; 0;
-   background-color: gray;
+   background-color: #A5A3A3;
    width: 100%;
    height: 100px;
    margin-top: 0px;
@@ -34,7 +34,7 @@ body{
    font-size: 14px;
    color: white;
    font-weight: bold;
-   padding-left: 10px;
+   padding-left: 0;
    padding-right: 5px;
    margin-top: 70px;
    display: inline-block;
@@ -46,6 +46,8 @@ body{
  
  .dropdown-menu {
    position: relative;
+   position: relative;
+   z-index: 1000;
  }
  
  .dropdown-menu .caret {}
@@ -56,11 +58,11 @@ body{
  
  .dropdown-content {
    display: none;
-   background-color: gray;
+   background-color: #A5A3A3;
    font-family: arial;
    color: white;
    font-size: 14px;
-   width: align-self auto;;
+   width: auto;
    position: absolute;
    left: 0;
    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.5);
@@ -78,9 +80,39 @@ body{
 .paz {
     position: absolute;
     top: 30px;
-    right: 220px;
+    right: 200px;
 }
 
+.home {
+    position: absolute;
+    top: 70px;
+    right: 380px;
+    cursor: pointer;
+}
+.Eng {
+    position: absolute;
+    top: 35px;
+    right: 770px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.in1 {
+    position: absolute;
+    top: 30px;
+    right: 830px
+}
+
+.in2 {
+    position: absolute;
+    top: 31px;
+    right: 983px 
+}
 .paztr {
     position: absolute;
     top: 130px;
@@ -159,3 +191,238 @@ body{
     font-weight: bold;
     padding-right: 10px;
 }
+
+
+
+.paztrintxts {position: absolute;
+    width: 200px;
+    height: 800px;
+    
+    top: 400px;
+    right: 225px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    font-weight: none;
+    padding-right: 10px;
+}
+
+.paztcintxts {position: absolute;
+    width: 200px;
+    height: 800px;
+
+    top: 400px;
+    right: 525px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    font-weight: none;
+    padding-right: 10px;
+}
+
+.paztlintxts {position: absolute;
+    width: 200px;
+    height: 800px;
+
+    top: 400px;
+    right: 825px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: white;
+    font-weight: none;
+    padding-right: 10px;
+}
+
+.ex1 {position: absolute;    
+   
+        top: 460px;
+        right: 400px;
+        text-decoration: none;
+        text-align: right;
+        font-family: arial;
+        font-size: 14px;
+        color: white;
+        font-weight: none;
+      }
+
+.ex2 {position: absolute;    
+        
+             top: 460px;
+             right: 700px;
+             text-decoration: none;
+             text-align: right;
+             font-family: arial;
+             font-size: 14px;
+             color: white;
+             font-weight: none;
+       }
+
+.ex3 {position: absolute;    
+            
+                 top: 460px;
+                 right: 1000px;
+                 text-decoration: none;
+                 text-align: right;
+                 font-family: arial;
+                 font-size: 14px;
+                 color: white;
+                 font-weight: none;
+               }
+
+.ex11 {position: absolute;    
+    
+         top: 685px;
+         right: 400px;
+         text-decoration: none;
+         text-align: right;
+         font-family: arial;
+         font-size: 14px;
+         color: white;
+         font-weight: none;
+
+}
+
+.ex12 {position: absolute;    
+    
+         top: 685px;
+         right: 700px;
+         text-decoration: none;
+         text-align: right;
+         font-family: arial;
+         font-size: 14px;
+         color: white;
+         font-weight: none;
+
+}
+
+.pazbr {position: absolute;    
+    width: 280px;
+    height: 220px;
+    border: 2px solid #DAD5D5;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to bottom , white, #EBE9E9);
+
+    top: 500px;
+    right: 220px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: black;
+    font-weight: none;
+    padding-right: 10px;
+    padding-top: 0;
+}
+
+hr.style1 {
+        border-top: 1px solid #DAD5D5;
+}
+.pazbc {position: absolute;    
+    width: 280px;
+    height: 220px;
+    border: 2px solid #DAD5D5;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to bottom , white, #EBE9E9);
+
+    top: 500px;
+    right: 520px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: black;
+    font-weight: none;
+    padding-right: 10px;
+    padding-top: 0;
+}
+.pazbl {position: absolute;    
+    width: 280px;
+    height: 220px;
+    border: 2px solid #DAD5D5;
+    border-top-right-radius: 15px;
+    background: linear-gradient(to bottom , white, #EBE9E9);
+
+    top: 500px;
+    right: 820px;
+    text-decoration: none;
+    text-align: right;
+    font-family: arial;
+    font-size: 12px;
+    color: black;
+    font-weight: none;
+    padding-right: 10px;
+    padding-top: 0;
+}
+
+.pazbrp {
+    position: absolute;
+    top: 560px;
+    right: 250px;
+}
+
+.pazbcp {
+    position: absolute;
+    top: 560px;
+    right: 550px;
+}
+
+.pazblp {
+    position: absolute;
+    top: 550px;
+    right: 1035px;
+}
+.bottom-menue > ul {
+    position: absolute;
+    top: 880px;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.v-menu {
+    position: absolute;
+    top: 560px;
+    right: 850px;
+    font-family: arial;
+    font-size: 13px;
+    text-align: right;
+  
+  }
+  .bottom-paz ul li {
+   display: inline;
+   align-content : center;
+  }
+  
+    
+  .bottom-paz ul li a{
+    text-decoration: none;
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;
+  }
+
+  .bottom-paz ul li left a {
+    text-decoration: none;
+    font-family: arial;
+    color: red;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+ 
+  .fb {
+    position: absolute;
+    top: 890px;
+    right: 280px;
+  }
